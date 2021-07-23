@@ -1,0 +1,42 @@
+ [{
+    "name": "Câmera de Fole",
+    "description": "Câmera fotográfica de fole",
+    "price": 149.90,
+    "desconto": 35,
+    "image": "/assets/images/camera.jpg" 
+},
+{
+    "name": "Geladeira Retrô",
+    "description": "Geladeira de design retrô na cor verde" ,
+    "price": 949.90,
+    "desconto": 20,
+    "image": "/assets/images/geladeira.jpg" 
+},
+{
+    "name": "Máquina de Escrever",
+    "description": "Máquina de escrever antiga",
+    "price": 449.50,
+    "desconto": 30,
+    "image": "/assets/images/maquina.jpg" 
+},
+{
+    "name": "Telefone de Disco",
+    "description": "Telefone antigo de discagem por disco",
+    "price": 299.90,
+    "desconto": 15,
+    "image": "/assets/images/telefone.jpg"
+},
+{
+    "name": "TV 1960s",
+    "description": "Televisão da década de 60 com imagem monocromática",
+    "price": 499.90,
+    "desconto": 20,
+    "image": "/assets/images/tv.png"
+},
+{
+    "name": "Gramofone",
+    "description": "Gramofone antigo com cone embutido",
+    "price": 699.90,
+    "desconto": 25,
+    "image": "/assets/images/vitrola.jpg"
+}]

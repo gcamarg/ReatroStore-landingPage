@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.brand{
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: 900;
+}
+.nav-links{
+    list-style: none;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.nav-links li{ 
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav-links li a {
+    transition: 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: aqua;
+}
+li, a{
+    font-family: Poppins;
+    color: #dddddd;
+    text-decoration: none;
+
+}
+.top-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient( rgb(4, 4, 4), rgb(10, 10, 20) );
+    height: 600px;
+    width: 100%;
+}
+@media (max-width: 1000px){
+    .top-container{
+        height: fit-content;
+    }
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 80px 0 0 0;
+}
+#title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 200px;
+    font-size: 120px;
+    line-height: 75%;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    user-select: none;
+}
+.gradient-1{
+    color: #fff;
+}
+
+.gradient-2{
+    color: #f00;
+} 
+footer{
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    bottom: 0;
+    background-color: rgb(10, 10, 20);
+}
+.footer-text{
+    text-align: center;
+    margin-top: 6px;
+    font-family:Poppins;
+    font-weight: 100;
+    font-size: 0.6rem;
+}
+

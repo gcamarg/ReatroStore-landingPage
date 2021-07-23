@@ -1,0 +1,31 @@
+.timer-countdown{
+    width: fit-content;
+    display: flex;
+   width: fit-content;
+    height: 90px;
+    margin: 0;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    user-select: none;
+    background-color:rgba(117, 117, 117, 0.164);
+    width: 90px;
+    height: 80px;
+    margin: 0 5px;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+}
+p{
+    text-shadow: 4px 4px rgba(37, 37, 37, 0.644);
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.637);
+}
+.unit-text{
+    font-size: 15px;
+}
